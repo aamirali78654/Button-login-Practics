@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toast1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomToast"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:background="#2E96CF">
+
+    <ImageView
+        android:id="@+id/image_ct"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/baseline_contact_emergency" />
+
+    <TextView
+        android:id="@+id/text_ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+</LinearLayout>
